@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parcent {
+    height: 40px;
+    width: 100%;
+    background-color: #3b5959;
+}
+
+.parcent p {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo h1 {
+    color: #3b5959;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(252, 255, 254);
+    display: flex;
+}
+
+.about {
+    text-decoration: none;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.about a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about select {
+    font-size: 14px;
+    border: 0;
+}
+
+.search {
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+.fa-search {
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.search a {
+    margin-left: 30px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search select {
+    font-size: 16px;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(252, 255, 254);
+}
+
+
+/* .hedding {
+    width: 400px;
+    height: au;
+    margin-top: 30px;
+} */
+
+.hedding h1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #3b5959;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hedding p {
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 400px;
+    line-height: 25px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hedding a {
+    height: 20px;
+    margin-left: 100px;
+    line-height: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.primary-button {
+    background-color: #3b5959;
+    border-radius: 6px;
+    font-weight: 500;
+    color: white !important;
+    padding: 9px 20px;
+    box-shadow: 0 0 2px black;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+
+.primary-button:hover {
+    background-color: #9db4b4;
+    color: #7d9b9b;
+}
+
+.image img {
+    width: 800px;
+    margin-left: 100px;
+    height: 600px;
+    background-color: antiquewhite;
+}
+
+.fa-user {
+    margin-top: 10px;
+}
+
+.gap {
+    background-color: gray;
+    height: 2px;
+    width: 100%;
+}
+
+.store {
+    height: 300px;
+    width: 100%;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+.had h1 {
+    margin-left: 10px;
+    color: #3b5959;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.had p {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.product {
+    display: flex;
+}
+
+.item img,
+.iteme img,
+.itemee img,
+.itemee img,
+.itemeee img,
+.itemeeee img {
+    width: 160px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.nameee a,
+.namee a,
+.name a,
+.nameeee a,
+.nameeeee a {
+    text-decoration: none;
+    margin-left: 70px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.name,
+.namee,
+.nameee,
+.nameeee,
+.nameeeee {
+    margin-top: 10px;
+}
+
+.offd {
+    width: 100%;
+    height: 600px;
+    background-color: beige;
+}
+
+.dicount {
+    display: flex;
+    width: 100%;
+}
+
+.imo img {
+    width: 300px;
+    /* margin-left: 50px; */
+    /* margin-top: 40px; */
+}
+
+.imo {
+    box-shadow: 4px 4px 8px #000000;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 480px;
+}
+
+.hadd {
+    margin-left: 50px;
+}
+
+.hadd h1 {
+    color: #3b5959;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imo a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin-top: 20px; */
+}
+
+.checked {
+    color: orange;
+    margin-top: 10px;
+}
+
+.offdd {
+    width: 100%;
+    height: auto;
+    background-color: rgb(196, 233, 230);
+}
+
+.super-product {
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.underline {
+    background-color: #3b5959;
+    height: 3px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.click {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.shop-button {
+    background-color: #3b5959;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 9px 100px;
+    color: white !important;
+    box-shadow: 0 0 2px black;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+
+.recent {
+    display: flex;
+    height: 900px;
+}
+
+.lettest {
+    width: 500px;
+    margin-left: 100px;
+    box-shadow: 4px 4px 8px #000000;
+    margin-top: 50px;
+    height: 700px;
+}
+
+.lettest h1 {
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.post {
+    display: flex;
+}
+
+.photos img {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.pera {
+    width: 190px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.pera a {
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hess h1 {
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hess img {
+    margin-top: 40px;
+}
+
+.foter {
+    background-color: #000000;
+    width: 100%;
+    height: 300px;
+    /* display: flex; */
+}
+
+.itemm h1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.itemm a {
+    color: white;
+    font-size: 13px;
+    margin-left: 60px;
+    line-height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon i {
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.h1 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 12px;
+}
